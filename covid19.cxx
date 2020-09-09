@@ -55,7 +55,7 @@ cin>>name;
 	cout<<"\n recovered"<<":"<<w;
 }
  /*   void info(char s[100]){
-    	char g[100]=s;
-    	cout<<"\n capital"<<":"<<g;
+    	    char g[100]=s;
+    	    cout<<"\n capital"<<":"<<g;
       }
  */
