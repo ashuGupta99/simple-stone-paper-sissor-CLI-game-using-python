@@ -17,3 +17,4 @@ scanf("%d",&a[i]);
   printf("Answer is %d",ans);
   return 0;
 }
+//new changes
