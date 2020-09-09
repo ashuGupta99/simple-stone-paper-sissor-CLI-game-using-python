@@ -1,42 +1,40 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 class My_Calculator
 {
 	int a,b,result;
 	public:
 	void getdata()
 	{
-		cout<<"\n enter two numbers for addition,  subtraction and multiplication\n "<<endl;
-		cin>>a>>b;
+		std::cout<<"\n enter two numbers for addition,  subtraction and multiplication\n "<<std::endl;
+		std::cin>>a>>b;
 	}
 	 void add()
 	{
 		result=a+b;
-		cout<<a<<"+"<<b<<" ="<<result<<endl;
+		std::cout<<a<<"+"<<b<<" ="<<result<<std::endl;
 	}
 	void sub()
 	{
 		result=a-b;
-		cout<<a<<"-"<<b<<"="<<result<<endl;
+		std::cout<<a<<"-"<<b<<"="<<result<<std::endl;
 	}
 		void mult()
 	{
 		result=a*b;
-		cout<<a<<"*"<<b<<"="<<result<<endl;
+		std::cout<<a<<"*"<<b<<"="<<result<<std::endl;
 	}
 };
  
- void main()
- {
- My_Calculator a;
+ int main(){
+   My_Calculator a;
  
- a.getdata();
- cout<<"\n results(addition,subtraction,multiplication):"<<endl;
- a.add();
+   a.getdata();
+   std::cout<<"\n results(addition,subtraction,multiplication):"<<std::endl;
+   a.add();
 
- a.sub();
+   a.sub();
 
- a.mult();
- getch();
+   a.mult();
+   return 0;
  }
  
