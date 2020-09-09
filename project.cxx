@@ -14,6 +14,6 @@ scanf("%d",&a[i]);
     	ans=(ans + a);
     }
   }
-  printf("%d",ans);
+  printf("Answer is %d",ans);
   return 0;
 }
