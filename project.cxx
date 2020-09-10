@@ -18,3 +18,4 @@ scanf("%d",&a[i]);
   return 0;
 }
 //new changes
+//added new features
